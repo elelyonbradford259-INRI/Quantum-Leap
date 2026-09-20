@@ -1,21 +1,23 @@
----
-name: test
+"transform 
 
-on:
-  pull_request:
-
-jobs:
-  test:
-    runs-on: ubuntu-latest
-    steps:
+     ranges::transform(c++20)     
+      
+      name: test
+      on:
+      pull_request:
+      jobs:
+      test:
+      runs-on: ubuntu-latest
+      steps:
     - name: Checkout
       uses: actions/checkout@v4
-
     - name: Setup Go
       uses: actions/setup-go@v5
       with:
-        go-version: '1.25.6'
-
+      go-version: '1.25.6'
     - name: Run tests
       run: |
-        go test -v ./...
+            
+      o test-v./...
+     
+     [enerate_n(c++20))]
