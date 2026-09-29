@@ -1,6 +1,6 @@
-"transform 
+transform:
 
-     ranges::transform(c++20)     
+     "ranges::transform(c++20)     
       
       name: test
       on:
